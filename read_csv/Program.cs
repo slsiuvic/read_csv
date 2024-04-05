@@ -7,7 +7,7 @@ using Microsoft.Data.Analysis;
 using static Deedle.FrameBuilder;
 using static Microsoft.FSharp.Core.ByRefKinds;
 
-//update 20240405
+//update 20240405 16:09
 
 public class Program
 {
@@ -23,6 +23,7 @@ public class Program
 
         // Create a new DataFrame
         var splitData = new DataFrame();
+
 
         // Split the input string into 16 columns
         for (int i = 0; i < 16; i++)
